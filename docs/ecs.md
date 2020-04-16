@@ -1,6 +1,6 @@
 <iframe src="https://ghbtns.com/github-btn.html?user=widdix&repo=aws-cf-templates&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-> **New**: Manage Free Templates for AWS CloudFormation with the [widdix CLI](./cli/)
+> **New**: [Become a sponsor](https://github.com/sponsors/widdix) via GitHub Sponsors!
 
 [EC2 Container Service (ECS)](https://aws.amazon.com/ecs/) is a highly scalable, fast, container management service that makes it easy to run, stop, and manage Docker containers on a cluster of Amazon EC2 instances. To run an application on ECS you need the following components:
 
@@ -36,6 +36,11 @@ This template describes a fault tolerant and scalable ECS cluster on AWS. The cl
 
 # ECS service
 This template describes a fault tolerant and scalable ECS service on AWS. The service scales based on CPU utilization.
+
+> :books: Check out our new book [Rapid Docker on AWS](https://cloudonaut.io/rapid-docker-on-aws/?utm_source=aws-cf-templates&utm_medium=doc&utm_campaign=ecs)
+> * Written for DevOps engineers and web developers who want to run dockerized web applications on AWS.
+> * Prior knowledge of Docker and AWS is not required.
+> * Continuous Deployment of your Web Application and Infrastructure as Code.
 
 > The image needs to expose port 80 or the `AWS::ECS::TaskDefinition` needs to be adjusted!
 

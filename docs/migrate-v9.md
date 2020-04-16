@@ -1,6 +1,6 @@
 <iframe src="https://ghbtns.com/github-btn.html?user=widdix&repo=aws-cf-templates&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-> **New**: Manage Free Templates for AWS CloudFormation with the [widdix CLI](./cli/)
+> **New**: [Become a sponsor](https://github.com/sponsors/widdix) via GitHub Sponsors!
 
 # Migrate from v8 to v9
 
@@ -67,4 +67,5 @@
 
 ## Deprecation warnings
 
-none
+* `ecs/cluser`: Parameter `DesiredCapacity` will be removed in v11, use `MinSize` instead
+* `jenkins/jenkins2-ha-agents`: Parameter `AgentDesiredCapacity` will be removed in v11, use `AgentMinSize` instead
